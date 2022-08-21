@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Sans+Narrow&family=Dancing+Script:wght@600&family=Roboto:wght@100;700&family=Rubik+Maze&display=swap');
+
+/* home page */
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.head {
+  height: 30px;
+  margin: 0;
+  background-color: #D1D1D1;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #413F42;
+  margin: 0;
+  padding: 5px 5px;
+  opacity: 60%
+}
+
+#title {
+  text-align: left;
+  color: #EFEFEF;
+  font-family: "Roboto", Roboto, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+}
+
+#home-link {
+  text-decoration: none;
+}
+
+.links {
+  margin: 20px 60px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 20px;
+}
+
+.link {
+  margin: auto 40px;
+  color: #EFEFEF;
+  text-decoration: none;
+}
+
+/* .hov-1:hover {
+  text-transform: uppercase;
+} */
+#main-bg-img {
+  width: 100%;
+}
+
+.desc {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  margin: 1% 5%;
+  background-color: #413F42;
+  padding: 3%;
+  opacity: 60%;
+  border-radius: 30px;
+}
+
+#desc-title {
+  font-size: 8em;
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Aboreto', cursive; */
+  color: #EFEFEF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#desc-text {
+  color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#footer {
+  text-align: center;
+  background-color: #E4DCCF;
+  margin: 0;
+}
+
+.contact-icon {
+  margin: 5px 5px 10px 5px;
+}
+
+/* products page */
+#product-body {
+  background-color: #EEEEEE;
+}
+
+#products {}
+
+#pro-title {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+#product-img {
+  text-align: center;
+}
+
+/* demo-page */
+#demo-body{
+  background-image: url('https://retaildesignblog.net/wp-content/uploads/2018/11/7R9A5223-780x520.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.demo-body-img{
+  width: 100%;
+}
+.demo-main {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:  normal;
+  position: absolute;
+  top: 24%;
+  left: 36%;
+  background-color: #D1D1D1;
+  padding: 3%;
+  opacity: 85%;
+  border-radius: 25px;
+  padding: 1% 10%;
+}
+
+#demo-title {
+  position: absolute;
+  top: 12%;
+  left: 37%;
+  font-size: 3.5em;
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Aboreto', cursive; */
+  color: #EFEFEF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* FAQ page */
+.faq-main {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  background-color: #413F42;
+  padding: 1% 3% 3% 3%;
+  opacity: 70%;
+  border-radius: 30px;
+}
+
+#faq-title {
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Aboreto', cursive; */
+  color: #EFEFEF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#faq-q-text {
+  color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#faq-a-text {
+  color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#faq-body-img {
+  margin: 0;
+  width: 100%;
+}
